@@ -220,29 +220,56 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
     .main-section {
         width: 630px;
+        margin-left: 30px;
     }
+
+    #masthead {
+        padding-right: 35px;
+        padding-left: 40px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     .main-section {
         width: 740px;
-        margin: 0 auto;
+        margin-left: 5px;
     }
 
     #masthead {
-        padding-right: 35px;
+        padding-right: 40px;
+
     }
-
-
 }
 
 @media screen and (max-width: 640px) {
     #masthead {
         position: static;
+        z-index: 80;
+
+
+
     }
 
     body {
         width: 100%;
     }
 
+    .main-section: {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    #logo {
+        width: 600px;
+        margin: 0 auto;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
 }
